@@ -1,0 +1,30 @@
+{
+  "name": "Nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npxCard.js",
+  "scripts": {
+    "dev": "nodemon card.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanLoi/Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanLoi/Nodejs/issues"
+  },
+  "homepage": "https://github.com/HanLoi/Nodejs#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "inquirer": "^8.0.0",
+    "nodemon": "^2.0.7",
+    "open": "^8.0.7"
+  }
+}
